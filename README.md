@@ -12,7 +12,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 # About run.analysis.R
 
-The steps taken to transform the initial data set are as follow:
+This code is designed to run properly when the dataset is extracted to the working directory, with subfolders intact. The steps taken to transform the initial data set are as follow:
 
 1. Create one R script called run_analysis.R that does the following. 
 2. Merges the training and the test sets to create one data set.
