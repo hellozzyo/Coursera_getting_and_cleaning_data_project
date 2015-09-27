@@ -1,6 +1,6 @@
 # CodeBook
 
-This code book describes the variables, the data and any transformation or work that was performed to clean up the data. 
+This code book summarizes the variables, the data and any data transformation after the data clean up. 
 
 ## Identifiers
 
@@ -14,7 +14,7 @@ This code book describes the variables, the data and any transformation or work 
  * 5. STANDING
  * 6. LAYING
 
-## Measurement Means
+## Measurement Mean
 
 * Time domain body acceleration mean along X, Y, and Z:
  - tBodyAccMeanX
@@ -83,7 +83,7 @@ This code book describes the variables, the data and any transformation or work 
 * Frequency domain gyroscope jerk magnitude mean:
  - fBodyBodyGyroJerkMagMean
 
-## Measurement Standard Deviations
+## Measurement Standard Deviation
 
 * Time domain body acceleration standard deviation along X, Y, and Z:
  - tBodyAccStdX
@@ -151,3 +151,7 @@ This code book describes the variables, the data and any transformation or work 
 
 * Frequency domain gyroscope jerk magnitude standard deviation:
  - fBodyBodyGyroJerkMagStd
+
+# Transformed Data Sets
+* MergedData - Merged data from the train and test datasets
+* AverageData - Average of each 'Measurement Mean' and 'Measurement Standard Deviation' for each activity and each subject
